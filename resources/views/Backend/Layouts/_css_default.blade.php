@@ -35,3 +35,5 @@
 <link href="{{ url('Nifty') }}/plugins/dropzone/dropzone.min.css" rel="stylesheet">
 
 <link href="{{ url('Nifty') }}/plugins/select2/css/select2.min.css" rel="stylesheet">
+
+<link href="{{ url('Nifty') }}/plugins/parsley/css/parsley.css" rel="stylesheet">

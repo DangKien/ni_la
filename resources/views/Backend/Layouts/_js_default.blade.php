@@ -24,4 +24,7 @@
 <script src="{{ url('') }}/Nifty/plugins/sweet-alert/sweetalert2.min.js"></script>
 
 <script src="{{ url('') }}/Nifty/plugins/dropzone/dropzone.min.js"></script>
+
 <script src="{{ url('') }}/Nifty/plugins/select2/js/select2.min.js"></script>
+
+<script src="{{ url('') }}/Nifty/plugins/parsley/js/parsley.min.js"></script>

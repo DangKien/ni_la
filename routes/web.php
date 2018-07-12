@@ -40,6 +40,8 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Backend'], function() {
 
     Route::get('users/change-password', 'Backend\UserController@change')->name('users.change');
     Route::post('users/change-password', 'Backend\UserController@changePassword')->name('users.changePassword');
+
+    Route::resource('languages', 'LanguagesController');
 });
 
 Route::group(['prefix' => 'rest/admin'], function() {
